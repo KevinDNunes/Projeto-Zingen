@@ -51,7 +51,6 @@ html {
 
 body {
   background-color: var(--bg-color);
-  padding: 1.5rem 2rem;
 }
 
 h1, h2, h3 {
@@ -93,6 +92,11 @@ a:hover {
 
 ul[role="list"] {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media (width >= 80em) {
